@@ -1,0 +1,186 @@
+<!-- <mat-toolbar class="RJL-Nav">
+
+
+    <div class="logo">
+        <span>
+            <img src="../../assets/img/rzlfiberLogo.svg" alt="RJL logo">
+        </span>
+    </div>
+
+    <div fxShow="true" fxHide.xs="true">
+        <a mat-button>Home</a>
+        <a mat-button>About Us</a>
+        <a mat-button [matMenuTriggerFor]="servicesMenu">Services</a>
+        <a mat-button>Testimonials</a>
+        <button mat-stroked-button>Contact Us</button>
+
+    </div>
+    <div fxFlex fxShow="”true”" fxHide.lt-lg="”true”" fxHide.lt-xl="”true”" fxHide.lt-md="”true”">
+        <a (click)="sidenav.toggle()">
+            <button mat-icon-button>
+                <mat-icon aria-hidden="true">menu</mat-icon>
+            </button>
+        </a>
+    </div>
+    <div fxShow="true" fxHide.gt-sm="true">
+        <a (click)="sidenav.toggle()">
+            <button mat-icon-button>
+                <mat-icon aria-hidden="true">menu</mat-icon>
+            </button>
+        </a>
+    </div>
+
+</mat-toolbar> -->
+<!--Side Nav with menu icon -->
+<!-- <mat-sidenav-container  class="example-container">
+    <mat-sidenav #sidenav fxLayout="column">
+        <div fxLayout="column">
+            <a (click)="sidenav.toggle()" href="#" mat-button>Close</a>
+            <a mat-button>Home</a>
+            <a mat-button>About Us</a>
+            <a mat-button>Services</a>
+            <a mat-button>Testimonials</a>
+            <a mat-button>Contact Us</a>
+
+        </div>
+    </mat-sidenav>
+
+    
+    <div class=" container-fluid banner">
+        <div class="row">
+            <div class="col-md-7  ban-text">
+                <h1>RZL FIBER NETWORK</h1>
+                <P>The Fastest network in Razole</P>
+                <div class="icons">
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <div class="service-icons">
+                                <button mat-button color="warn"><span class="material-icons-outlined md-24">
+                                    <mat-icon >speed</mat-icon>
+                                </span>
+                            </button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="service-icons">
+                               <span class="material-icons-outlined md-24">
+                                    <mat-icon >speed</mat-icon>
+                                </span>
+                           
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="service-icons">
+                                <button mat-button color="warn"><span class="material-icons-outlined md-24">
+                                    <mat-icon >speed</mat-icon>
+                                </span>
+                            </button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class="service-icons">
+                                <button mat-button color="warn"><span class="material-icons-outlined md-24">
+                                    <mat-icon >speed</mat-icon>
+                                </span>
+                            </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+           
+</mat-sidenav-container>        
+            
+<mat-menu #servicesMenu="matMenu">
+    <button mat-menu-item>Speed</button>
+    <button mat-menu-item>Best Service</button>
+    <button mat-menu-item>Unlimited Data</button>
+    <button mat-menu-item>Speed</button>
+</mat-menu> -->
+
+<nav class="navbar navbar-expand-lg navbar-light RJL-Nav">
+
+    <div class="container-fluid ">
+        <a href="#" class="navbar-brand logo">
+            <img src="../../../assets/img/rzlfiberLogo.svg" alt="Rzl fiber logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link ">Home</a>
+                <a href="#" class="nav-item nav-link">About Us</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servies</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">High Speed</a>
+                        <a href="#" class="dropdown-item">Best service</a>
+                        <a href="#" class="dropdown-item">Connections</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link" tabindex="-1"><div class="btn btn-outline-light">Contact Us</div></a>
+            </div>
+            
+        </div>
+    </div>
+</nav>
+
+<div class=" container-fluid banner">
+    <div class="row">
+        <div class="col-md-7  ban-text">
+            <h1>RZL FIBER NETWORK</h1>
+            <P>The Fastest network in Razole</P>
+            <div class="icons">
+                <div class="row">
+                    <div class="col-md-3 ">
+                        <div class="service-icons">
+                            
+                           
+                            
+                        </div>
+                        <p>High Speed</p>
+                       
+                        
+                        
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="service-icons">
+                            
+                           
+                        </div>
+                        <p>High Speed</p>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="service-icons">
+                           
+                        </div>
+                        <p>High Speed</p>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="service-icons">
+                           
+                        </div>
+                        <p>High Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-5 ban-img">
+
+        </div>
+
+    </div>
+
+</div>

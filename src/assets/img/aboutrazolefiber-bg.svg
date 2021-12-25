@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2916.006" height="2928.182" viewBox="0 0 2916.006 2928.182">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.575" cy="0.577" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.988"/>
+      <stop offset="1" stop-color="#dfeff5"/>
+    </radialGradient>
+    <filter id="aboutrazolefiber-bg" x="0" y="0" width="2916.006" height="2928.182" filterUnits="userSpaceOnUse">
+      <feOffset dy="34" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#aboutrazolefiber-bg)">
+    <path id="aboutrazolefiber-bg-2" data-name="aboutrazolefiber-bg" d="M2050.789,856.278C1920.6,367.45,1470.76,14.584,942.742.431,663.6-7.052,369.853,81.351,155.991,390.706-150.108,823.173,24.253,566.836,351.53,866.285c165.628,159.989,208.066,241.439,307.306,366.732,191.1,216.536,728.192,1074.066,1166.025,652.465C2142.2,1579.9,2137.509,1181.886,2050.789,856.278Z" transform="translate(11.37 1350.76) rotate(-40)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

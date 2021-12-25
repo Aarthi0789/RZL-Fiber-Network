@@ -1,0 +1,72 @@
+
+.our-services{
+    clear: both;
+    background-color: #00000029;
+
+        h1{
+            font-size: 77px;
+            font-weight: 600;
+            color: #FF552E;
+            line-height: 103px;
+        }
+
+        p{
+            font-size: 20px;
+            margin-bottom: 85px;
+        }
+
+        .service-card {
+                box-shadow: 0px 9px 9px #808080b8;
+                margin-bottom: 103px;
+                border-radius: 23px;
+            
+            h3{
+                text-align: center;
+            }
+            p{
+                color: #777777;
+            }
+
+            .service-icons{
+                height: 130px;
+                width: 130px;
+                border: solid #80808078;
+                position: relative;
+                top: -76px;
+                right: -130px;
+                border-radius: 74px;
+                background-color: #FFFFFF;
+
+            }
+            
+
+        
+    }
+    .service-card:hover {
+        background-color: #FF552E;
+        box-shadow: 9px 2px 7px grey;
+        color: #ffff;
+
+    
+
+    }
+    .service-icons:hover{
+        border: none;
+    }
+
+    .fiber-img{
+        height: 500px;
+        width: 498px;
+        position: absolute;
+        right: -160px;
+
+        img{
+            position: relative;
+            right: 231px;
+            bottom: -147px;
+            height: 746px;
+            width: 786px;
+        }
+    }
+}
+

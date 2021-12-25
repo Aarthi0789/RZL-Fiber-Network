@@ -1,0 +1,55 @@
+.About-Us{
+   
+    background-image: url(../../../assets/img/aboutrazolefiber-bg.svg);
+    /* background-position-x: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 0px 83px 83px 0px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -220px -397px;
+
+    .About-Us-img{
+       
+        width: 526px;
+        height: 496px;
+        background-color: #DFEFF5;
+        position: absolute;
+        left: -147px;
+        border-radius: 100%;
+        display: flex;
+        top: -95px;
+        
+        img{
+            position: relative;
+            left: -322px;
+            bottom: -16px;
+        }
+    }
+    .About-Us-text{
+
+        padding: 50px;
+
+        img{
+            height: 292px;
+            margin-top: 82px;
+        }
+
+        h1{
+            color: #FF552E;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 102px;
+            padding-right: 95px;
+            font-family:  Roboto;
+        }
+        p{
+          
+            font-size: 20px;
+            font-family: Roboto;
+            
+        }
+    }
+}

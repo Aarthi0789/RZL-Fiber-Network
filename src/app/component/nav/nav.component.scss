@@ -1,0 +1,85 @@
+.RJL-Nav{
+    
+    justify-content: space-between;
+    height: 100px;
+    background-color:#161E65 ;
+    // background: transparent;
+    padding: 0px 100px;
+ 
+ .logo{
+    background-color: #ffff;
+    border-radius: 0px 0px 25px 25px;
+    width: 300px;
+    height: 100px;
+ }
+
+ a{
+     color: #ffff;
+     padding-right: 1rem;
+ }
+//  .mat-stroked-button{
+//      border-color: #ffff;
+//      width: 130px;
+//  }
+//  .material-icons-outlined{
+//      height: 50px;
+//  }
+ 
+}
+
+.RJL-Nav img{
+    height: 132px;
+    width: 300px;
+    padding-top: 14px;
+    
+}
+
+.banner{
+    background-color: #161E65;
+    padding-bottom: 100px;
+
+
+    .ban-text{
+        padding-left: 100px;
+        margin-top: 40px;
+
+        h1{
+            font-size: 7rem;
+            font-weight: 700;
+            color: #2B549E;
+            font-family: Roboto;
+            line-height: 140px;
+        
+        }
+        p{
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: Roboto;
+            
+        }
+
+        .icons{
+
+            margin-top: 65px;
+            .service-icons {
+                
+                height: 150px;
+                width: 150px;
+                margin-right: 20px;
+                border-radius: 118px;
+                border: 2px solid #FFFFFF6E;
+                
+            }
+        }
+    }
+
+    .ban-img{
+        background-image: url(../../../assets/img/rzllogosymbol.svg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+    
+}
