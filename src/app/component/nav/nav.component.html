@@ -119,24 +119,28 @@
         </button> 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link ">Home</a>
-                <a href="#" class="nav-item nav-link">About Us</a>
+                <a mat-button routerLink='/home'>Home</a>
+                <a mat-button routerLink='/about-us'>About Us</a>
+                
+                <!-- <button mat-raised-button color="primary" (click)="goToHome()" class="nav-item nav-link ">Home</button> 
+                <button mat-raised-button color="primary" (click)="goToAboutUS()" class="nav-item nav-link">About Us</button> -->
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servies</a>
+                    <a mat-button color="primary"  routerLink='/services' class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servies</a>
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-item">High Speed</a>
                         <a href="#" class="dropdown-item">Best service</a>
                         <a href="#" class="dropdown-item">Connections</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item nav-link" tabindex="-1"><div class="btn btn-outline-light">Contact Us</div></a>
+                <a mat-button  routerLink='/contact-us'>Contact Us</a>
+                <!-- <button mat-raised-button color="primary" (click)="goToContactUs()" class="nav-item nav-link" tabindex="-1">Contact Us</button> -->
             </div>
             
         </div>
     </div>
 </nav>
 
-<div class=" container-fluid banner">
+<!-- <div class=" container-fluid banner">
     <div class="row">
         <div class="col-md-7  ban-text">
             <h1>RZL FIBER NETWORK</h1>
@@ -183,4 +187,4 @@
 
     </div>
 
-</div>
+</div> -->

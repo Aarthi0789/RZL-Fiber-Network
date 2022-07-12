@@ -1,0 +1,32 @@
+
+
+
+<div class="container">
+    <h1>Reactive Form</h1>
+    <form name="newform"  [formGroup]="newform" (ngSubmit)="submit()" class="form">
+        <input type="text" formControlName="firstName"><br>
+        <div style="color: red;"   *ngIf="f['firstName'].touched" >
+           first Name is required
+          
+        </div>
+        <input type="text" formControlName="lastName">
+        <div style="color: red;"    *ngIf="f['lastName'].untouched">
+            lastName is required 
+        </div><br>
+        <input type="email" formControlName="email" name='email'>
+        <div *ngIf="f['email'].untouched">
+            
+        </div>
+        <input type="password" formControlName="password">
+        <div style="color: red;"    *ngIf="f['password'].pristine">
+            Invalid Password 
+        
+           <!-- <div *ngIf="password.minlength">
+            password  should be min length 5
+           </div> -->
+        </div>
+        <button [disabled]="!newform.valid">Submit</button>
+        <p>Form Status: {{ newform.status }}</p>
+        </form>
+</div>
+

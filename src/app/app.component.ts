@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 
@@ -13,5 +14,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'RZL-Fibers';
 
- 
+  constructor(private router: Router) {}
+
+  contactUsNav(){
+    this.router.navigate(['/contact-us'])
+  }
 }
